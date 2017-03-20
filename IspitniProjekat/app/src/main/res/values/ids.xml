@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toolbar" type="id" />
+    <item name="contact_name" type="id" />
+    <item name="contact_biography" type="id" />
+    <item name="contact_birth" type="id" />
+    <item name="contact_rating" type="id" />
+    <item name="preferences" type="id" />
+    <item name="about" type="id" />
+    <item name="cancel" type="id" />
+    <item name="add_contact" type="id" />
+    <item name="add_new_actor" type="id" />
+    <item name="contact_list" type="id" />
+</resources>
