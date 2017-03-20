@@ -9,42 +9,42 @@ public class Contact {
 
 
 
-    private int mName;
-    private int mBiography;
-    private int mBirth;
+    private String mName;
+    private String mBiography;
+    private String mBirth;
     private float mScore;
     private boolean mId;
+    private String mYear;
+    private String mGenre;
+    private static String mBrojTelefona;
 
-    public int getmName() {
+
+    public String getmName() {
         return mName;
     }
 
-    public void setmName(String mName) {
-        this.mName = mName;
+    public static void setmName(String mName) {
     }
 
-    public int getmBiography() {
+    public String getmBiography() {
         return mBiography;
     }
 
-    public void setmBiography(String mBiography) {
-        this.mBiography = mBiography;
+    public static void setmBiography(String mBiography) {
     }
 
-    public int getmBirth() {
+    public String getmBirth() {
         return mBirth;
     }
 
-    public void setmBirth(String mBirth) {
-        this.mBirth = mBirth;
+    public static void setmBirth(String mBirth) {
     }
 
     public float getmScore() {
         return mScore;
     }
 
-    public void setmScore(float mScore) {
-        this.mScore = mScore;
+    public static void setmScore(float mScore) {
     }
 
     public boolean getmId() {
@@ -55,7 +55,22 @@ public class Contact {
         return mId;
     }
 
-    public void setmId(boolean mId) {
-        this.mId = mId;
+    public void setmId(boolean mId){
+    }
+
+    public String getmYear() {
+        return mYear;
+    }
+
+    public void setmYear(String mYear) {
+        this.mYear = mYear;
+    }
+
+    public String getmGenre() {
+        return mGenre;
+    }
+
+    public void setmGenre(String mGenre) {
+        this.mGenre = mGenre;
     }
 }

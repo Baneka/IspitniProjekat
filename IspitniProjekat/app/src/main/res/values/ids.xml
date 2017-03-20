@@ -11,4 +11,10 @@
     <item name="add_contact" type="id" />
     <item name="add_new_actor" type="id" />
     <item name="contact_list" type="id" />
+    <item name="contact_genre" type="id" />
+    <item name="contact_year" type="id" />
+    <item name="priprema_edit" type="id" />
+    <item name="priprema_remove" type="id" />
+    <item name="add_contact_list" type="id" />
+    <item name="priprema_add_contact_list" type="id" />
 </resources>

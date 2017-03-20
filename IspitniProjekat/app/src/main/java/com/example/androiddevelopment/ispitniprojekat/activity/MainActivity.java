@@ -147,10 +147,10 @@ public class MainActivity extends AppCompatActivity {
                         EditText birth = (EditText) dialog.findViewById(R.id.actor_birth);
 
                         Contact c = new Contact();
-                        c.setmName(name.getText().toString());
-                        c.setmBiography(bio.getText().toString());
-                        c.setmBirth(birth.getText().toString());
-                        c.setmScore(rating.getRating());
+                        Contact.setmName(name.getText().toString());
+                        Contact.setmBiography(bio.getText().toString());
+                        Contact.setmBirth(birth.getText().toString());
+                        Contact.setmScore(rating.getRating());
 
                         try {
                             getDatabaseHelper().getContactDao().create(c);
